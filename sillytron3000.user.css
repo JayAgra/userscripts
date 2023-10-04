@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name        sillytron3000
+@match       https://snap.berkeley.edu/snap/snap.html*
+==/UserStyle== */
+#world {
+  animation: shake 0.1s cubic-bezier(.36,.07,.19,.97) both infinite;
+  filter: hue-rotate(90deg) contrast(1500%) saturate(100%) blur(0.1px) brightness(2);
+  cursor: help;
+}
+
+body {
+    background-color: blue;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-2.5px, -2.5px, -2.5px);
+  }
+
+  20%, 80% {
+    transform: translate3d(5.5px, 5.5px, 5.5px);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-5.5px, -5.5px, -5.5px);
+  }
+
+  40%, 60% {
+    transform: translate3d(2.5px, 2.5px, 2.5px);
+  }
+}

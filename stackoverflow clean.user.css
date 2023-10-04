@@ -1,0 +1,86 @@
+/* ==UserStyle==
+@name         stackoverflow clean
+@match       https://*.stackoverflow.com/questions/*
+==/UserStyle== */
+:root {
+    --txt: #fff;
+    --bkg: #000;
+    --so-orange: rgb(242, 116, 13);
+    --so-blue: rgb(10, 149, 255);
+}
+body {
+    color: var(--txt);
+    background-color: var(--bkg);
+}
+ #content {
+     width: 100%;
+     margin: none;
+     border: none;
+     background-color: var(--bkg);
+     color: var(--txt);
+}
+.container {
+    justify-content: center !important;
+}
+ #mainbar, .mainbar {
+     width: 100%;
+}
+ .community-option, #sidebar, header, .bottom-notice, #footer, .s-topbar, .aside-cta, .post-taglist, .fs-caption, #post-form, .js-suggest-edit-post, .js-follow-post, .js-vote-up-btn, .js-vote-down-btn, .js-post-issue, .comments-link {
+     display: none !important;
+}
+#left-sidebar {
+    display: none;
+    width: 0px;
+}
+.question-hyperlink, .s-pagination--item {
+    color: var(--so-orange) !important;
+}
+.s-pagination--item {
+    border-color: var(--so-orange) !important;
+}
+.is-selected {
+    color: var(--bkg) !important;
+}
+.js-vote-count, .mb0 {
+    color: var(--so-blue) !important;
+}
+.s-notice {
+    background-color: var(--bkg);
+    border-color: #666;
+    color: #666;
+}
+#answer-sort-dropdown-select-menu {
+    background-color: var(--bkg);
+    color: var(--txt);
+    border: none;
+    border-bottom: 2px solid var(--so-blue);
+    border-radius: 0px;
+    -webkit-appearance: none;
+}
+.s-code-block, .snippet-result-code {
+    filter: invert(100%);
+}
+.post-signature, .owner {
+    border: 1px solid var(--so-blue);
+    margin-right: 10px !important;
+    border-radius: 2px;
+    background-color: var(--bkg);
+}
+.owner {
+    border-color: var(--so-orange) !important;
+    margin-right: 0px !important;
+}
+.user-action-time > a {
+    color: rgb(106, 115, 124) !important;
+}
+.ta-center {
+    color: #0f0;
+}
+.js-vote-count {
+    padding-top: 1em;
+    padding-bottom: 1em
+}
+.comment-copy > code {
+    color: var(--txt) !important;
+    background-color: #333 !important;
+}

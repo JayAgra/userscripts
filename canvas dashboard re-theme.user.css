@@ -1,0 +1,169 @@
+/* ==UserStyle==
+@name        canvas dashboard re-theme
+@match       https://sequoia.instructure.com/*
+==/UserStyle== */
+
+:root {
+    /* CHANGE THESE IF WANTED */
+    
+    --j-custom-primary: #282828;
+    --j-custom-secondary: #8ec07c;
+    --j-custom-tertiary: #b16286;
+    --j-custom-quaternary: #b8bb26;
+    --j-custom-text: #fff;
+    --j-custom-super-unimportant: #b16286;
+    --j-custom-semiunimportant: #458588;
+    --j-custom-newIndicator: #fe8019;
+    --j-custom-superdark-primary: #1d2021;
+    
+    /*
+    --j-custom-primary: #002244;
+    --j-custom-secondary: #b8bb26;
+    --j-custom-tertiary: #21023b;
+    --j-custom-quaternary: #b8bb26;
+    --j-custom-text: #fff;
+    --j-custom-super-unimportant: #bbb;
+    --j-custom-semiunimportant: #eee;
+    --j-custom-newIndicator: #f00;
+    --j-custom-superdark-primary: #001122;
+    */
+
+    /* IGNORE THE REST OF FILE */
+    --ic-brand-font-color-dark: var(--j-custom-text) !important;
+    --ic-brand-global-nav-bgd: var(--j-custom-primary)  !important;
+    --ic-brand-global-nav-ic-icon-svg-fill--active: var(--j-custom-primary) !important;
+    --ic-brand-global-nav-menu-item__text-color--active: var(--j-custom-primary) !important;
+    --ic-brand-global-nav-logo-bgd: var(--j-custom-primary) !important;
+    --ic-brand-Login-footer-link-color: var(--j-custom-secondary) !important;
+    --ic-brand-Login-footer-link-color-hover: var(--j-custom-secondary) !important;
+    --fbyHH-color: var(--j-custom-secondary) !important;
+    --fOyUs-color: var(--j-custom-text) !important;
+    --jpyTq-color: var(--j-custom-super-unimportant) !important;
+    --cECYn-colorPrimary: var(--j-custom-newIndicator) !important;
+    --ic-link-color: var(--j-custom-secondary) !important;
+    --fQfxa-secondaryColor: var(--j-custom-text) !important;
+}
+
+#not_right_side, #dashboard_header_container, #dashboard, #announcementWrapper, .Day-styles__root, .Day-styles__secondary, .EmptyDays-styles__root, #footer, .ic-Layout-wrapper, .PlannerHeader-styles__root, .dUOHu_drOs, #application, .navigation-tray-container, .header-bar, #breadcrumbs, .collectionViewItems, .item-group-condensed, .assignment_group_upcoming, .item-group-container, .ui-tabs-panel, tr, .fOyUs_fKyb, .fOyUs_cBHs, .yyQPt_cSXm, .module-sequence-footer, .module-sequence-footer-content, .lti-quiz, .context_module_sub_header, .ig-row {
+    background-color: var(--j-custom-primary) !important;
+    background: var(--j-custom-primary) !important;
+    color: var(--j-custom-text) !important;
+}
+
+.Grouping-styles__title {
+    background-color: var(--j-custom-primary) !important;
+    color: var(--j-custom-secondary) !important;
+}
+
+.Grouping-styles__title::after {
+    content: "" !important;
+    background: none !important;
+}
+
+.ic-Dashboard-header__layout, .event-details:after {
+    background: none !important;
+}
+
+#dashboard_header_container {
+    padding-bottom: 2vh;
+}
+
+.PlannerItem-styles__due, .PlannerItem-styles__score {
+    color: var(--j-custom-semiunimportant) !important;
+}
+
+.StickyButton-styles__newActivityButton {
+    right: 0px !important;
+    background-color: var(--j-custom-primary) !important;
+    border: 0.2em solid var(--j-custom-newIndicator) !important;
+    border-top: 0px !important;
+}
+
+.nav-badge {
+    background: var(--j-custom-newIndicator) !important;
+    color: var(--j-custom-primary) !important;
+}
+
+.list-view a.active {
+    border-left-color: var(--j-custom-text) !important;
+    color: var(--j-custom-text) !important;
+}
+
+.course-title {
+    color: var(--j-custom-secondary) !important;
+}
+
+.ig-header, .element_toggler {
+    background-color: var(--j-custom-superdark-primary) !important;
+    color: var(--j-custom-secondary) !important;
+    border: none !important;
+}
+
+.assignment > div, .lti-quiz > div {
+    background-color: var(--j-custom-primary) !important;
+    border: 1px solid var(--j-custom-superdark-primary) !important;
+    border-top: none !important;
+}
+
+.ig-type-icon > i {
+    color: var(--j-custom-semiunimportant) !important;
+}
+
+.ig-details, .fCrpb_bGBk, .fCrpb_egrg {
+    color: var(--j-custom-quaternary) !important;
+}
+
+.ui-tabs-active, .ic-Input {
+    border-color: var(--j-custom-tertiary) !important;
+    background-color: var(--j-custom-superdark-primary) !important;
+}
+
+.ui-tabs-active > a {
+    background-color: var(--j-custom-superdark-primary) !important;
+    color: var(--j-custom-text) !important;
+}
+
+#navpills {
+    border-bottom: 0.5vh solid var(--j-custom-superdark-primary) !important;
+}
+
+tbody, table, tr, th, td {
+    background: transparent !important;
+}
+
+#whatif-score-description {
+    font-size: xx-small !important;
+}
+
+.ig-header .name {
+    color: var(--j-custom-secondary) !important;
+    text-shadow: none !important;
+}
+
+#immersive_reader_mount_point > div {
+    display: none;
+}
+
+.mini-cal-month-and-year {
+    color: var(--j-custom-secondary) !important;
+}
+
+.current_month > .day_wrapper > .day_number, a:hover {
+    color: var(--j-custom-quaternary) !important;
+}
+
+.assignment-title, .assignment > div, .module-item-title, .lti-quiz, .ig-row {
+    border: none !important;
+}
+
+#submit_assignment {
+    border-color: var(--j-custom-quaternary) !important;
+}
+
+.context_module_sub_header {
+    margin-top: 2vh !important;
+}
+
+.context_module_sub_header, .context_module_item.indent_1 {
+    border-left: 2px var(--j-custom-tertiary) solid !important;
+}

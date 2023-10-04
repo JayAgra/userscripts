@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name        gmail web declutter
+@match       https://mail.google.com/*
+==/UserStyle== */
+
+.aeN.WR.a6o.anZ.baA.nH.oy8Mbf, .gb_Lc, .Yb.dIH7rb.bax, .zo, .gb_Mc {
+    display: none;
+}
+.nH.bkK .nH.ar4.bKk, .Cp > div > table, .D.E.G-atb {
+    background-color: #024;
+}
