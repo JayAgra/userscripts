@@ -1,0 +1,8 @@
+/* ==UserStyle==
+@name        discord font family
+@match       https://discord.com/*
+==/UserStyle== */
+/* this looks like shit */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}

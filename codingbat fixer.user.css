@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name        codingbat fixer
+@match       https://codingbat.com/*
+==/UserStyle== */
+
+:root {
+    filter: invert();
+    background-color: #fff;
+}
+
+.h2 {
+    filter: invert();
+    color: #b8bb26;
+}
+
+.no, .ok {
+    filter: invert();
+}
