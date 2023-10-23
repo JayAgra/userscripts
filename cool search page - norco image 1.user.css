@@ -20,6 +20,11 @@ html {
     background-image: url("https://i.imgur.com/EQRNVcG.png");
 }*/
 
+.wLL07_0Xnd1QZpzpfR4W article, .is-mobile .yQDlj3B5DI5YO8c8Ulio, .yQDlj3B5DI5YO8c8Ulio.jHKRD_8UMD51jfnKQ1LL, .is-mobile .yQDlj3B5DI5YO8c8Ulio {
+    background-color: rgba(12, 13, 26, 0.8);
+    border-color: transparent;
+}
+
 .search--home, .search--header {
     background-color: var(--image-top-color);
     border-color: #232323;
@@ -129,12 +134,19 @@ pre, tt, code {     background-color: var(--page-accent-color) !important;
 }
 
 /* hide most duckduckgo branding */
-.header__logo, .js-logo-ddg, #spread, #wedonttrack, .header--aside, .js-feedback-btn-wrap, .footer__right, .footer_cards {
+.header__logo, .js-logo-ddg, #spread, #wedonttrack, .header--aside, .js-feedback-btn-wrap, .footer__right, .footer_cards, .footer--mobile {
     display: none !important;
 }
 
 .site-wrapper {
     background-color: var(--image-bottom-color) !important;
+}
+
+@media (max-width: 600px)  {
+    #web_content_wrapper {
+        background-size: 500% !important;
+        background-position: top center;
+    }
 }
 
 #web_content_wrapper {

@@ -1,7 +1,9 @@
 /* ==UserStyle==
 @name        Google Docs Dark
-@match       https://docs.google.com/document/*
+@match       https://docs.google.com/document/imeffectivelydisabingthisforlaterfixing
 ==/UserStyle== */
+
+/* @match       https://docs.google.com/document/* */
 
 :root {
   --primary-background-color: #1b1b1b;
