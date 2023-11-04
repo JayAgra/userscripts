@@ -136,12 +136,20 @@ pre, tt, code {     background-color: var(--page-accent-color) !important;
 }
 
 /* hide most duckduckgo branding */
-.header__logo, .js-logo-ddg, #spread, #wedonttrack, .header--aside, .js-feedback-btn-wrap, .footer__right, .footer_cards, .footer--mobile {
+.header__logo, .js-logo-ddg, #spread, #wedonttrack, .header--aside, .js-feedback-btn-wrap, .footer__right, .footer_cards, .footer--mobile, .footer, .header__search-wrap {
     display: none !important;
 }
 
 .site-wrapper {
     background-color: var(--image-bottom-color) !important;
+}
+
+.header {
+    min-height: 0px !important;
+}
+
+.is-mobile .body--serp .header {
+    padding-top: 0px;
 }
 
 @media (max-width: 600px)  {

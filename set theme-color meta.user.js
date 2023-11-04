@@ -11,7 +11,8 @@ const sites = {
     "9733inc.com": "rgba(2,0,36,1)",
     "bandcamp.com": "#4c9ebf",
     "codingbat.com": "#000",
-    "www.last.fm": "#d92323"
+    "www.last.fm": "#d92323",
+    "bun.sh": "#14151a",
 }
 if (Object.hasOwn(sites, window.location.host)) {
     document.head.insertAdjacentHTML("afterbegin", `<meta name="theme-color" content="${sites[window.location.host]}">`);
