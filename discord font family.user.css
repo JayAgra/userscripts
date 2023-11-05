@@ -3,6 +3,7 @@
 @match       https://discord.com/*
 ==/UserStyle== */
 /* this looks like shit */
-body {
-    font-family: "Comic Sans MS", -apple-system, BlinkMacSystemFont, sans-serif;
+:root {
+    font-family: "Comic Sans MS" !important;
+    --font-primary: "Comic Sans MS" !important;
 }

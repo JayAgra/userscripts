@@ -3,9 +3,7 @@
 @match       https://sequoia.instructure.com/*
 ==/UserStyle== */
 
-:root {
-    /* CHANGE THESE IF WANTED */
-    
+:root {    
     --j-custom-primary: #282828;
     --j-custom-secondary: #8ec07c;
     --j-custom-tertiary: #b16286;
@@ -15,18 +13,6 @@
     --j-custom-semiunimportant: #458588;
     --j-custom-newIndicator: #fe8019;
     --j-custom-superdark-primary: #1d2021;
-    
-    /*
-    --j-custom-primary: #002244;
-    --j-custom-secondary: #b8bb26;
-    --j-custom-tertiary: #21023b;
-    --j-custom-quaternary: #b8bb26;
-    --j-custom-text: #fff;
-    --j-custom-super-unimportant: #bbb;
-    --j-custom-semiunimportant: #eee;
-    --j-custom-newIndicator: #f00;
-    --j-custom-superdark-primary: #001122;
-    */
 
     /* IGNORE THE REST OF FILE */
     --ic-brand-font-color-dark: var(--j-custom-text) !important;
@@ -40,8 +26,10 @@
     --fOyUs-color: var(--j-custom-text) !important;
     --jpyTq-color: var(--j-custom-super-unimportant) !important;
     --cECYn-colorPrimary: var(--j-custom-newIndicator) !important;
-    --ic-link-color: var(--j-custom-secondary) !important;
+    --ic-link-color: #8ec07c !important;
     --fQfxa-secondaryColor: var(--j-custom-text) !important;
+    
+    font-family: -apple-system, system-ui !important;
 }
 
 #not_right_side, #dashboard_header_container, #dashboard, #announcementWrapper, .Day-styles__root, .Day-styles__secondary, .EmptyDays-styles__root, #footer, .ic-Layout-wrapper, .PlannerHeader-styles__root, .dUOHu_drOs, #application, .navigation-tray-container, .header-bar, #breadcrumbs, .collectionViewItems, .item-group-condensed, .assignment_group_upcoming, .item-group-container, .ui-tabs-panel, tr, .fOyUs_fKyb, .fOyUs_cBHs, .yyQPt_cSXm, .module-sequence-footer, .module-sequence-footer-content, .lti-quiz, .context_module_sub_header, .ig-row {
@@ -166,4 +154,17 @@ tbody, table, tr, th, td {
 
 .context_module_sub_header, .context_module_item.indent_1 {
     border-left: 2px var(--j-custom-tertiary) solid !important;
+}
+
+.css-1sr6v3o-text {
+    color: #d5c4a1;
+}
+
+.css-xqopp9-text {
+    color: #d5c4a1 !important;
+}
+
+a {
+    color: #8ec07c !important;
+    text-decoration: none !important;
 }
