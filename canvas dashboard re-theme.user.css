@@ -32,7 +32,11 @@
     font-family: -apple-system, system-ui !important;
 }
 
-#not_right_side, #dashboard_header_container, #dashboard, #announcementWrapper, .Day-styles__root, .Day-styles__secondary, .EmptyDays-styles__root, #footer, .ic-Layout-wrapper, .PlannerHeader-styles__root, .dUOHu_drOs, #application, .navigation-tray-container, .header-bar, #breadcrumbs, .collectionViewItems, .item-group-condensed, .assignment_group_upcoming, .item-group-container, .ui-tabs-panel, tr, .fOyUs_fKyb, .fOyUs_cBHs, .yyQPt_cSXm, .module-sequence-footer, .module-sequence-footer-content, .lti-quiz, .context_module_sub_header, .ig-row {
+.css-6t42ud-view-link:-webkit-any(a), .css-6t42ud-view-link:-webkit-any(button), .css-1lfaow5-view--block, .css-1uakmj8-text, .css-1p1uj7k-truncateText, .css-mum2ig-text, .css-i4y43u-text, .css-1bjdzjm-view-heading {
+    font-family: -apple-system, system-ui !important;
+}
+
+#not_right_side, #dashboard_header_container, #dashboard, #announcementWrapper, .Day-styles__root, .Day-styles__secondary, .EmptyDays-styles__root, #footer, .ic-Layout-wrapper, .PlannerHeader-styles__root, .dUOHu_drOs, #application, .navigation-tray-container, .header-bar, #breadcrumbs, .collectionViewItems, .item-group-condensed, .assignment_group_upcoming, .item-group-container, .ui-tabs-panel, tr, .fOyUs_fKyb, .fOyUs_cBHs, .yyQPt_cSXm, .module-sequence-footer, .module-sequence-footer-content, .lti-quiz, .context_module_sub_header, .ig-row, .css-22ol9d-checkbox__input, .css-1h7tu9i-checkbox__control, .css-3orjyc-checkbox {
     background-color: var(--j-custom-primary) !important;
     background: var(--j-custom-primary) !important;
     color: var(--j-custom-text) !important;
@@ -128,7 +132,7 @@ tbody, table, tr, th, td {
     text-shadow: none !important;
 }
 
-#immersive_reader_mount_point > div {
+#immersive_reader_mount_point > div, .css-1tp02dz-view-alert {
     display: none;
 }
 
@@ -156,15 +160,47 @@ tbody, table, tr, th, td {
     border-left: 2px var(--j-custom-tertiary) solid !important;
 }
 
-.css-1sr6v3o-text {
+.css-1sr6v3o-text, .ic-Action-header__Heading {
     color: #d5c4a1;
+}
+
+.ic-Action-header__Heading {
+    color: #fbf1c7;
+}
+
+.context {
+    color: #bdae93 !important;
 }
 
 .css-xqopp9-text {
     color: #d5c4a1 !important;
 }
 
+.css-j68kdy-formFieldLabel, .show_guess_grades_link, #show_all_details_button {
+    color: #d5c4a1 !important;
+}
+
+.group_total > .title, .group_total > .assignment_score > div > .tooltip > .grade, .group_total > td.details > span {
+    color: #d5c4a1 !important;
+}
+
+.final_grade > .title, .final_grade > .assignment_score > div > .tooltip > span.grade {
+    color: #b8bb26 !important;
+}
+
+.student_assignment > .due, .student_assignment > .assignment_score > div > .tooltip > .grade, .group_total > td.details > span, #course_select_menu, #assignment_sort_order_select_menu {
+    color: #fbf1c7 !important;
+}
+
 a {
     color: #8ec07c !important;
     text-decoration: none !important;
+}
+
+.btn, .Button, .ui-button, .toggle_comments_link, #course_select_menu, #assignment_sort_order_select_menu {
+    background: var(--j-custom-primary) !important;
+}
+
+.standalone-icon:before {
+    color: #fbf1c7 !important;
 }
