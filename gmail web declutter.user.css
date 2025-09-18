@@ -3,9 +3,9 @@
 @match       https://mail.google.com/*
 ==/UserStyle== */
 
-.aeN.WR.a6o.anZ.baA.nH.oy8Mbf, .gb_Lc, .Yb.dIH7rb.bax, .zo, .gb_Mc {
-    display: none;
+div[jslog="134561; u014N:xr6bB;"], div[jsaction="cZRHAe:.CLIENT;CyXzrf:.CLIENT"], .gb_Cc, .gb_Dc.gb_ae, .lJradf.XQuz9d.X72uL, div[data-tooltip="Support"], #gbwa, div[jsaction="rcuQ6b:npT2md;JIbuQc:.CLIENT;LbSNDf:.CLIENT;z45Jce:.CLIENT"] {
+    display: none
 }
-.nH.bkK .nH.ar4.bKk, .Cp > div > table, .D.E.G-atb {
-    background-color: #024;
+.nH.bkK {
+    padding-right: 1rem;
 }

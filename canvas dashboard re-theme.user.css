@@ -32,6 +32,10 @@
     font-family: -apple-system, system-ui !important;
 }
 
+.revert_score_link, .icon-reply-2 {
+    display: none !important;
+}
+
 .css-6t42ud-view-link:-webkit-any(a), .css-6t42ud-view-link:-webkit-any(button), .css-1lfaow5-view--block, .css-1uakmj8-text, .css-1p1uj7k-truncateText, .css-mum2ig-text, .css-i4y43u-text, .css-1bjdzjm-view-heading {
     font-family: -apple-system, system-ui !important;
 }

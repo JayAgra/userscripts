@@ -2,7 +2,7 @@
 @name        discord font family
 @match       https://discord.com/*
 ==/UserStyle== */
-/* this looks like shit */
+
 :root {
     font-family: "Comic Sans MS" !important;
     --font-primary: "Comic Sans MS" !important;

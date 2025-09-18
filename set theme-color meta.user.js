@@ -12,7 +12,14 @@ const sites = {
     "bandcamp.com": "#4c9ebf",
     "codingbat.com": "#000",
     "www.last.fm": "#d92323",
-    "bun.sh": "#14151a",
+    "mail.google.com": "#111",
+    "www.amazon.com": "#00453e",
+    "drive.google.com": "#1b1b1b",
+    "www.instagram.com": "#000",
+    "www.netflix.com": "#000",
+    "en.wikipedia.org": "#101418",
+    "americanexpress.com": "#006fcf",
+    "shibboleth.nyu.edu": "#330662",
 }
 if (Object.hasOwn(sites, window.location.host)) {
     document.head.insertAdjacentHTML("afterbegin", `<meta name="theme-color" content="${sites[window.location.host]}">`);

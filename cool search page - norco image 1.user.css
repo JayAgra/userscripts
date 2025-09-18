@@ -136,7 +136,7 @@ pre, tt, code {     background-color: var(--page-accent-color) !important;
 }
 
 /* hide most duckduckgo branding */
-.header__logo, .js-logo-ddg, #spread, #wedonttrack, .header--aside, .js-feedback-btn-wrap, .footer__right, .footer_cards, .footer--mobile, .footer, .header__search-wrap {
+.header__logo, .js-logo-ddg, #spread, #wedonttrack, .header--aside, .js-feedback-btn-wrap, .footer__right, .footer_cards, .footer--mobile, .footer, .header__search-wrap, .TccjmKV6RraCaCw5L9gd {
     display: none !important;
 }
 
@@ -157,6 +157,10 @@ pre, tt, code {     background-color: var(--page-accent-color) !important;
         background-size: 500% !important;
         background-position: top center;
     }
+}
+
+.RHsWhMlxc4ETEMDS9ltw:before, .RHsWhMlxc4ETEMDS9ltw:after, .DrcPyihFGyKMlg6lpwsa:before, XvPRmQVeIoCP5lQhICTv.ofDl_1VxUG_EKc3b9E3x:before {
+    background-image: none !important;
 }
 
 #web_content_wrapper {
